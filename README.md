@@ -1,6 +1,12 @@
 # geo2d
 geo2d is a 2D geometry calculation system for goboscript. 
 
+## usage
+Add the following line in your code:
+`%include geo2d\\__init__.gs`
+
+## features
+
 Main Structs:
 - Node
 - Line

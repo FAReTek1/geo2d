@@ -6,4 +6,3 @@ onflag {
     say "Hello, World!";
     Node p = Node{x: 1, y: 2};
 }
-# test

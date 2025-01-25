@@ -11,3 +11,10 @@ With just these structs, many features have been implemented. A few examples:
 - Circle-Circle intersection
 - Side of line that a Node is one
 - Get tangent points of a circle to a point
+
+geo2d also implements many clipping algorithms:
+- circle-ngon
+- cohen-sutherland
+- circle-line
+- cyrus-beck
+- sutherland-hodgman

@@ -2,8 +2,16 @@
 geo2d is a 2D geometry calculation system for goboscript. 
 
 ## usage
+Add this to `goboscript.toml`:
+```toml
+[dependencies]
+std = "https://github.com/FAReTek1/geo2d@<Tag name of release you want to use>"
+```
+Backpack should automatically add the [std](https://github.com/FAReTek1/std) package, which is used by geo2d.
 Add the following line in your code:
-`%include geo2d\\__init__.gs`
+```rs
+%include backpack/geo2d/geo2d/__init__
+```
 
 ## features
 

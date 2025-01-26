@@ -1,6 +1,3 @@
-%include std\\math.gs
-%include geo2d\\structs.gs
-
 func node_to_polar(Node p) Polar {
     return Polar{
         r: sqrt($p.x * $p.x + $p.y * $p.y),

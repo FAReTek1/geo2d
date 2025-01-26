@@ -1,6 +1,3 @@
-%include std\\math.gs
-%include geo2d\\structs.gs
-
 func circle_at(Node p, r) Circle {
     return Circle{
         x: $p.x, y:$p.y, r: $r

@@ -1,6 +1,5 @@
 # Collection of all structs used in Geo2D.gs
 # Maybe there should also be enums.gs
-
 # --- --- --- --- --- --- --- --- --- --- #
 # Structs representing geometrical objects
 struct Node{

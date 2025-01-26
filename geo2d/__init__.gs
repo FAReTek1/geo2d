@@ -1,7 +1,17 @@
+# Dependencies
+%include backpack/std/std/math
+
 # Collection of %includes for geo.gs
-%include geo2d\\node.gs
-%include geo2d\\polar.gs
-%include geo2d\\line.gs
-%include geo2d\\circle.gs
-%include geo2d\\structs.gs
-%include geo2d\\clip.gs
+# For some reason, trailing newlines makes a difference here:
+# https://github.com/rust-lang/rust/issues/62973
+%include geo2d/structs
+
+%include geo2d/node
+
+%include geo2d/polar
+
+%include geo2d/circle
+
+%include geo2d/clip
+
+%include geo2d/line

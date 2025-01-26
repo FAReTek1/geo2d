@@ -1,10 +1,3 @@
-%include std\\math.gs
-%include geo2d\\structs.gs
-
-%include geo2d\\circle.gs
-%include geo2d\\node.gs
-%include geo2d\\line.gs
-
 # --- --- --- --- --- --- --- --- --- --- #
 
 # Circle-ngon clipper based on wolther-scripts's clipper

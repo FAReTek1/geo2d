@@ -1,6 +1,5 @@
-%include backpack\\std\\std\\math.gs
-
-# %include geo2d\\__init__.gs
+# %include backpack/std/std/__init__.gs
+%include geo2d/__init__
 
 costumes "blank.svg";
 

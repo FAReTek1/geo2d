@@ -1,6 +1,3 @@
-%include std\\math.gs
-%include geo2d\\structs.gs
-
 func line_side_node(Line l, Node p) {
     # Return -1, 0, or 1 depending on the side of the line that point p is on. 0 means the point is on the line.
     local det = (($l.x2 - $l.x1) * ($p.y - $l.y1)) - (($l.y2 - $l.y1) * ($p.x - $l.x1));

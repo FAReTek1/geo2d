@@ -22,7 +22,7 @@ geo2d is a 2D geometry calculation system for goboscript.
 
 2. Add the following line in your code:
     ```rs
-    %include backpack/geo2d/geo2d/__init__
+    %include backpack/geo2d/geo2d
     ```
 
 ## features

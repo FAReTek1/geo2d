@@ -4,5 +4,12 @@
 costumes "blank.svg";
 
 onflag {
-    say "Hello, World!";
+    Node p = Node{x: 1, y: 10};
+
+    Line l = Line{
+            x1: -100, y1: -90,
+            x2: 45, y2: 75
+        };
+
+    say sdf_line_seg(p, l);
 }

@@ -16,3 +16,5 @@
 %include backpack/geo2d/geo2d/clip
 
 %include backpack/geo2d/geo2d/line
+
+%include backpack/geo2d/geo2d/sdf

@@ -6,5 +6,5 @@ high_quality_pen = false
 
 [dependencies]
 # Using latest versions, so not @ sign
-geo2d = "https://github.com/FAReTek1/geo2d"
+geo2d = "https://github.com/FAReTek1/geo2d@v0.03b1"
 std = "https://github.com/FAReTek1/std"

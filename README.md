@@ -27,6 +27,8 @@ geo2d is a 2D geometry calculation system for goboscript.
 
 ## features
 
+If you're looking for a package to place these shapes on the pen canvas, look no further than shapefill (not released yet :/ )
+
 Main Structs:
 - Node
 - Line

@@ -1,3 +1,18 @@
+# Run the substack for each pixel on the 480x360 Scratch stage.
+# Will assign the x/y coords to the given VARIABLE, which must have x & y attrs.
+# You are supposed to use a Node struct for this.
+%define FOR_SCREEN_NODE(var,substack) \
+    var.x = -240;                                                   \
+    repeat 480 {                                                    \
+        var.y = -180;                                               \
+        repeat 360 {                                                \
+            var.y++;                                                \
+            substack                                                \
+        }                                                           \
+        var.x++;                                                    \
+    }
+
+
 func node_to_polar(Node p) Polar {
     return Polar{
         r: sqrt($p.x * $p.x + $p.y * $p.y),

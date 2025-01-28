@@ -3,8 +3,12 @@
 
 costumes "blank.svg";
 
-onflag {
-    run;
+
+
+onflag {run;}
+
+func add1(a) {
+    return $a + 1;
 }
 
 nowarp proc run{
@@ -22,7 +26,7 @@ nowarp proc run{
     FOR_SCREEN_NODE(node,
         node_goto node;
 
-        dist = sdf_line_seg(node, l);
+        dist = sdf_line(node, l);
 
         set_pen_color "#000000";
         set_pen_brightness (dist);

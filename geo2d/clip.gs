@@ -108,7 +108,7 @@ proc circle_ngon_clip Circle c {
             add cnc_ngon[j] to _cnc_buffer1;
         }
         if (current == 0) or (prev == 0) {
-            _cnc_inr_circle_line $c, nodes_join(cnc_ngon[j], cnc_ngon[i]);
+            _cnc_inr_circle_line $c, node_join(cnc_ngon[j], cnc_ngon[i]);
         }
         
         prev = current;

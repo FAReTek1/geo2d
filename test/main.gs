@@ -3,8 +3,6 @@
 
 costumes "blank.svg";
 
-
-
 onflag {run;}
 
 func add1(a) {

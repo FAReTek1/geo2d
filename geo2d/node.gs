@@ -56,3 +56,19 @@ func nodes_lerp(Node a, Node b, t) Node {
         y: LERP($a.y, $b.y, $t)
     };
 }
+
+# rotate node about origin
+func node_rot(Node p, theta) Node {
+    return Node {
+        x: $p.y * sin($theta) + $p.x * cos($theta),
+        y: $p.y * cos($theta) - $p.x * sin($theta)
+    };
+}
+
+# rotate node about another node (c = center)
+func node_rotc(Node p, Node c, theta) Node {
+    return Node {
+        x: $c.x + ($p.y - $c.y) * sin($theta) + ($p.x - $c.x) * cos($theta),
+        y: $c.y + ($p.y - $c.y) * cos($theta) - ($p.x - $c.x) * sin($theta)
+    };
+}

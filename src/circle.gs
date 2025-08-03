@@ -65,10 +65,11 @@ func circ_intersect(Circle c1, Circle c2) Line2 {
     );
 }
 
-%define CIRC_OUTER_TANGENT_POINTS_TO_V2(c,p) circ_intersect(c, Circle( \
+%define CIRC_OUTER_TANGENT_POINTS_TO_V2(c, p) circ_intersect(c, Circle(\
         (c.x + p.x) / 2,\
         (c.y + p.y) / 2,\
         DIST(c.x, c.y, p.x, p.y) / 2))
 func circ_outer_tangent_points_to_v2(Circle c, Vec2 p) Line2 {
-    return CIRC_OUTER_TANGENT_POINTS_TO_V2($c, $p);
+    local Line2 ret = CIRC_OUTER_TANGENT_POINTS_TO_V2($c, $p);
+    return ret;
 }

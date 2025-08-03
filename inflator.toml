@@ -4,3 +4,5 @@ version = "v1.0.0"
 username = "FAReTek1"
 
 [dependencies]
+math = "https://github.com/FAReTek1/math"
+vec2 = "https://github.com/FAReTek1/vec2"

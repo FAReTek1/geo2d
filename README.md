@@ -5,6 +5,10 @@
 This is a 2D geometry library which is built for [goboscript](https://github.com/aspizu/goboscript).
 It is designed to be used with [inflator](https://github.com/faretek1/inflator).
 
+2D intersection scripts and stucts for geometrical objects
+does not directly implement a Vector/Point/Node struct - it uses vec2.gs
+Intersections belong to the simpler object (i.e. less params)
+
 ## Credits
 
 ...

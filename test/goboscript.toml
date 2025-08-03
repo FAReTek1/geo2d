@@ -1,9 +1,1 @@
-no_miscellaneous_limits = false
-no_sprite_fencing = false
-frame_interpolation = false
-high_quality_pen = false
-
-
-[dependencies]
-# Using latest versions, so not @ sign
-geo2d = "https://github.com/FAReTek1/geo2d@v0.0.3b2"
+# Configuration Reference: <https://aspizu.github.io/goboscript/configuration>
